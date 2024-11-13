@@ -1,0 +1,6 @@
+framework module Pods_Emat {
+  umbrella header "Pods-Emat-umbrella.h"
+
+  export *
+  module * { export * }
+}

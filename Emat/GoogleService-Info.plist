@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>832189293297-7gv7rgv5dhlnsv93r79g2m62k47epjt2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.832189293297-7gv7rgv5dhlnsv93r79g2m62k47epjt2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAwjXgpeR5d5GjBKE3UV2Uk2rZy8kcklgM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>832189293297</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ios.emat</string>
+	<key>PROJECT_ID</key>
+	<string>emat-eta-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>emat-eta-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:832189293297:ios:a8c02c8de5359d8faa7f50</string>
+</dict>
+</plist>

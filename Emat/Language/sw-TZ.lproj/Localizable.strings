@@ -1,0 +1,80 @@
+/* 
+  Localizable.strings
+  DoctorCars
+
+  Created by mac on 28/03/20.
+  Copyright © 2020 com.ios. All rights reserved.
+*/
+"Home" = "Mwanzo";
+"My Account" = "Akaunti yangu";
+"Language" = "Lugha";
+"Please Enter Your Email" = "Ingiza anuani ya barua pepe";
+"Please Enter Password" = "Ingiza nywila";
+"Please Enter Valid Email" = "Ingiza anuani sahihi ya barua pepe";
+"Please Enter Name" = "Ingiza jina lako";
+"Please Enter Mobile Number" = "Ingiza namba yako ya simu";
+"Login" = "Ingia";
+"Sign up" = "Jisajili";
+"Forgot password" = "Nimesahau nywila";
+"No request found" = "Maombi hayajapatikana";
+"Profile" = "Wasifu";
+"Privacy policy" = "Sera ya siri";
+"List" = "Listi";
+"Please Enter Mobile Number" = "Ingiza namba ya simu";
+"Please Enter Description" = "Ingiza maelezo";
+"Please enter full name" = "Ingiza jina lako kamili";
+"Select Date" = "Chagua tarehe";
+"Please Select Date" = "Chagua tarehe";
+"Select Time" = "Chagua muda";
+"Please Select Time" = "Chagua muda";
+"Select Address" = "Chagua anuani";
+"Please Select Address" = "Chagua anuani";
+"Are you sure you want to log out?" = "Unauhakika unataka kutoka?";
+"Yes" = "Ndio";
+"No" = "Hapana";
+"Please Select Language" = "Chagua lugha";
+
+"Select Your Sports" = "Chagua michezo yako";
+"Please enter first name" = "Ingiza jina la kwanza";
+"Please enter last name" = "Ingiza jina la mwisho";
+"Please select gender" = "Chagua jinsia";
+"Please enter confirm password" = "Thibitisha nywila";
+"Please enter same password" = "Ingiza nywila inalofanana";
+"Please enter the email" = "Tafadhali weka barua pepe";
+"Please Select Country" = "Chagua nchi";
+"Mobile : " = "mobile : ";
+"My Profile" = "Wasifu";
+"About Us" = "Kuhusu sisi";
+"Change Language" = "Badili lugha";
+"Change Password" = "Badili nywila";
+"Terms & Conditions" = "Vigezo na masharti";
+"Message" = "Ujumbe";
+
+"Contracts" = "mikataba";
+"Notifications" = "Taarifa";
+"Appointment" = "mihadi";
+"Please enter MCT No." = "Ingiza namba ya MCT";
+"Please enter healthy facility" = "Jina la hospitali unayoganyia kazi";
+"Your Self test" = "Tathmini binafsi ya afya";
+"Prevention" = "Kinga";
+"Screening" = "Kujikinga";
+"Treatment" = "Matibabu";
+"FAQ" = "Maswali na Majibu";
+"Your self test" = "Tathmini binafsi ya afya";
+"Please Enter OTP" = "Ingiza namba ya siri";
+"Enter Wrong OTP" = "Umekosea namba ya siri";
+"First do self test from screening and then you can talk to doctors." = "Tafadhali tanya tathmini binafsi kwanza kabla ya kuongea na daktari.";
+"TALK TO A DOCTOR" = "ONGEA NA DAKTARI";
+"SYMPTOMS & MANAGEMENT" = "DALILI & MATIBABU";
+"TALK TO A CLIENT" = "ONGEA NA MTEJA";
+"TREATMENT" = "MATIBABU";
+"Send message..." = "Tuma ujumbe…";
+"END CHAT" = "HITIMISHA MAZUNGUMZO";
+"Please enter message" = "Ingiza ujumbe";
+"Write here..." = "Andika hapa…";
+"NEWS UPDATES" = "TAARIFA MPYA";
+"OTHER NEWS" = "TAARIFA NYINGINE";
+"TREATMENT" = "MATIBABU";
+"How would you like to verify your account" = "Chagua njia ya kuthibitisha akaunti yako";
+"Phone number" = "Namba ya simu";
+"E-mail" = "Barua Pepe";

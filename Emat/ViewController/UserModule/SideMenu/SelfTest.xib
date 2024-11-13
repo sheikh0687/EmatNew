@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SelfTest" customModule="Tanzania_COVID_19" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="116"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TEST28568" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b48-gS-n59">
+                    <rect key="frame" x="15" y="15" width="99" height="29"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="DALILI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WQ-O0-jLL">
+                    <rect key="frame" x="15" y="52" width="289" height="20.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" name="HeaderColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="Kipimo hiki bina" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2b-yI-kBQ">
+                    <rect key="frame" x="15" y="80.5" width="289" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="BlackBG"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yti-B0-eVp">
+                    <rect key="frame" x="270.5" y="21.5" width="33.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                    <color key="textColor" name="BlackBG"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="I2b-yI-kBQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="AHa-2e-Hyw"/>
+                <constraint firstItem="yti-B0-eVp" firstAttribute="centerY" secondItem="b48-gS-n59" secondAttribute="centerY" id="B2Q-uG-IQg"/>
+                <constraint firstItem="b48-gS-n59" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="DfK-XX-DBB"/>
+                <constraint firstItem="3WQ-O0-jLL" firstAttribute="top" secondItem="b48-gS-n59" secondAttribute="bottom" constant="8" id="EcX-47-LeT"/>
+                <constraint firstItem="3WQ-O0-jLL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="HPn-zm-bAv"/>
+                <constraint firstAttribute="trailing" secondItem="3WQ-O0-jLL" secondAttribute="trailing" constant="15" id="jW9-Mh-bYV"/>
+                <constraint firstAttribute="trailing" secondItem="yti-B0-eVp" secondAttribute="trailing" constant="15" id="oF5-Sx-XG1"/>
+                <constraint firstAttribute="bottom" secondItem="I2b-yI-kBQ" secondAttribute="bottom" constant="15" id="puw-7s-9im"/>
+                <constraint firstAttribute="trailing" secondItem="I2b-yI-kBQ" secondAttribute="trailing" constant="15" id="qGs-ww-x9Y"/>
+                <constraint firstItem="I2b-yI-kBQ" firstAttribute="top" secondItem="3WQ-O0-jLL" secondAttribute="bottom" constant="8" id="qpB-fB-92a"/>
+                <constraint firstItem="b48-gS-n59" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="wfi-kC-oEm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lbl_Date" destination="yti-B0-eVp" id="NpU-mt-yei"/>
+                <outlet property="lbl_Result" destination="3WQ-O0-jLL" id="CWg-ch-mcs"/>
+                <outlet property="lbl_ResultDescri" destination="I2b-yI-kBQ" id="Qd4-Xw-Wjy"/>
+                <outlet property="lbl_TestNumber" destination="b48-gS-n59" id="YnO-zL-1c4"/>
+            </connections>
+            <point key="canvasLocation" x="47.10144927536232" y="110.49107142857143"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BlackBG">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="HeaderColor">
+            <color red="0.0" green="0.50196078431372548" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
